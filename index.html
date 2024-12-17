@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create A Simple Sign Up Form</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header>
 
     </header>
     <main>
-        <label for="name">
-            <input type="text" name="Name" id="name" placeholder="Enter Your Name">
-        </label>
-        <label for="email">
-            <input type="email" name="Email" id="email" placeholder="Enter Your Email">
-        </label>
-        <label for="comment">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </label>
+        <form id="form">
+            <div class="form-items">
+                <label for="name">
+                    <input type="text" name="Name" id="name" placeholder="Enter Your Name">
+                </label>
+                <label for="email">
+                    <input type="email" name="Email" id="email" placeholder="Enter Your Email">
+                </label>
+                <label for="comment">
+                    <textarea name="" id="" cols="30" rows="5" >Write Your Comment....</textarea>
+                </label>
+                <label for="submit">
+                    <input type="submit" value="Send">
+                </label>
+            </div>
+        </form>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>

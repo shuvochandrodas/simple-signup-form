@@ -1,0 +1,26 @@
+#form{
+    width:400px;
+    background-color:rgba(238, 237, 234, 0.995);
+    margin:0 auto;
+}
+.form-items{
+    padding:20px;
+}
+input{
+    display: block;
+    width: 70%;
+    margin: 10px 40px;
+    padding: 8px;
+    border: none;
+}
+textarea{
+    width:70%;
+    margin: 10px 40px;
+    padding: 8px;
+    border: none;
+}
+input[type="submit"]{
+    background-color: rgb(190, 220, 246);
+    width: 150px;
+    margin: auto;
+}
